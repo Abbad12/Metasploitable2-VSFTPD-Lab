@@ -1,7 +1,7 @@
 # Metasploitable2-VSFTPD-Lab
 Built a virtual penetration testing environment using VMware, Kali Linux and Metasploitable2. Conducted service enumeration, vulnerability identification and exploitation using Metasploit Framework.
 
-#Lab Environment
+# Lab Environment
 
 Attacker:
 -	 Kali Linux
@@ -15,7 +15,7 @@ Virtualization:
 Network:
 -	 Host Only  
 
-#Service Enumeration:
+# Service Enumeration:
 Objective 
 -	Discover open ports and identify running services.
 
@@ -36,7 +36,7 @@ Result
 | 5432 | PostgreSQL | 8.3 | Middle |
   
   
-#Vulnerability Identification:
+# Vulnerability Identification:
 Objective 
 -	Determine whether the detected FTP Service has any publicly documented vulnerability. 
 
@@ -52,7 +52,7 @@ Result
 Note
 -	A public exploit existing for vsftpd does not mean that vulnerability necessarily exists in this system.
 
-#Exploit Validation:
+# Exploit Validation:
 Objective
 -	Verify whether Metasploit contains an exploit module for the identified ftp vulnerability 
 
@@ -65,7 +65,7 @@ Command
 Result
 -	Metasploit have module exploit the targeted ftp version (vsftpd 2.3.4) and the module ranked “excellent”.
  
-#Exploitation:
+# Exploitation:
 Objective 
 -	Targeting the vulnerable FTP service identified during the previous phases.
 
